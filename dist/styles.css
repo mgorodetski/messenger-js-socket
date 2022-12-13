@@ -1,0 +1,79 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    border: 3px solid deepskyblue;
+    width: 60%;
+    padding: 5px;
+}
+
+.bottomNavigation {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.bottomNavigation>input {
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid tomato;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.bottomNavigation>input:focus {
+    outline: none;
+    border: 1px solid tomato;
+}
+
+.bottomNavigation>button {
+    border-radius: 20px;
+    border: none;
+    background-color: greenyellow;
+    transition: all 0.5s;
+}
+
+.bottomNavigation>button:hover {
+    margin-top: 10px;
+    background-color: rgb(97, 144, 26);
+    color: white;
+}
+
+.messageContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.message {
+    /* border: 3px dashed violet; */
+    width: 40%;
+    background-color: aquamarine;
+}
+
+.foreign {
+    background-color: rgba(199, 110, 80, 0.87);
+}
+
+.messageInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.textContainer {
+    padding: 0px 10px;
+}
